@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "987660005780",
+    "firebase_url": "https://naladoni-bb30c.firebaseio.com",
+    "project_id": "naladoni-bb30c",
+    "storage_bucket": "naladoni-bb30c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987660005780:android:ecfa24f9096a99ff029f81",
+        "android_client_info": {
+          "package_name": "com.ageone.naladonipartner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987660005780-1nv3cn8r374suqjbscenbij8kkge4hli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmkmbsCIPDii4ySbbr1WsR5-SfdOyrEOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987660005780-1nv3cn8r374suqjbscenbij8kkge4hli.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "987660005780-1cpna08ndk92k2dg7l2g72h032h1lhpc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.ageone.naladoni"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

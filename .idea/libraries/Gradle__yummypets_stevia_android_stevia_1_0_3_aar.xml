@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: yummypets.stevia.android:stevia:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/095bbf563d58f419bff263019990fb9c/jetified-stevia-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/095bbf563d58f419bff263019990fb9c/jetified-stevia-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/yummypets.stevia.android/stevia/1.0.3/9703ad8f0377fa73d4d6f7ba159a753136828435/stevia-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
