@@ -1,5 +1,6 @@
 package com.ageone.naladonipartner.Application.Coordinator.Flow
 
+import android.os.Handler
 import androidx.core.view.size
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.ViewFlipperFlowObject.viewFlipperFlow
 //import com.ageone.naladonipartner.Application.Coordinator.Flow.Regular.runFlowFAQ
@@ -7,6 +8,8 @@ import com.ageone.naladonipartner.Application.Coordinator.Router.DataFlow
 import com.ageone.naladonipartner.Application.coordinator
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
 import com.ageone.naladonipartner.External.InitModuleUI
+import com.ageone.naladonipartner.Modules.Auth.AuthModel
+import com.ageone.naladonipartner.Modules.Auth.AuthView
 import com.ageone.naladonipartner.Modules.Start.StartModel
 import com.ageone.naladonipartner.Modules.Start.StartView
 
@@ -45,6 +48,7 @@ class FlowAuth: BaseFlow() {
 
     inner class FlowAuthModels {
         val modelStart = StartModel()
+        val modelAuth = AuthModel()
     }
 
     fun runModuleStart() {
@@ -56,8 +60,24 @@ class FlowAuth: BaseFlow() {
 
         settingsCurrentFlow.isBottomNavigationVisible = false
 
+        Handler().postDelayed({
+            runModuleAuth()
+        },4000)
+
         push(module)
     }
+
+    fun runModuleAuth(){
+        val module = AuthView(
+            InitModuleUI(
+                isBottomNavigationVisible = false
+            ))
+        module.viewModel.initialize(models.modelAuth) { module.reload() }
+        settingsCurrentFlow.isBottomNavigationVisible = false
+
+        push(module)
+    }
+
 
 
 }

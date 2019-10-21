@@ -31,7 +31,7 @@ fun AuthTextViewHolder.renderUI() {
         textViewAuth
     )
     textViewAuth
-        .constrainTopToTopOf(constraintLayout,32)
+        .constrainTopToTopOf(constraintLayout,80)
         .constrainCenterXToCenterXOf(constraintLayout)
 }
 
