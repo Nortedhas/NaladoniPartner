@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/naladoni.iml" filepath="$PROJECT_DIR$/naladoni.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/naladoni-app.iml" filepath="$PROJECT_DIR$/app/naladoni-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/naladoni.iml" filepath="$PROJECT_DIR$/.idea/naladoni.iml" />
     </modules>
   </component>
 </project>
