@@ -1,7 +1,7 @@
 package com.ageone.naladonipartner.Application.Coordinator.Router
 
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator
-import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.runFlowCamera
+import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.runFlowMain
 /*import com.ageone.naladonipartner.Application.Coordinator.Flow.Regular.runFlowNavigation
 import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.**/
 import com.ageone.naladonipartner.Application.Coordinator.Router.TabBar.Stack
@@ -20,6 +20,6 @@ fun FlowCoordinator.createStackFlows(startFlow: Int) {
     runFlowSearch()
     runFlowProfile()*/
 
-    runFlowCamera()
+    runFlowMain()
     Stack.flows[startFlow].start()
 }

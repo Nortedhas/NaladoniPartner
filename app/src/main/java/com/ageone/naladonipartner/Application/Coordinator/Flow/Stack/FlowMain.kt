@@ -13,9 +13,9 @@ import com.ageone.naladonipartner.Modules.CameraInput.CameraInputModel
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputViewModel
 
 
-fun FlowCoordinator.runFlowCamera() {
+fun FlowCoordinator.runFlowMain() {
 
-    var flow: FlowCamera? = FlowCamera()
+    var flow: FlowMain? = FlowMain()
 
     flow?.let { flow ->
         viewFlipperFlow.addView(flow.viewFlipperModule)
@@ -37,16 +37,16 @@ fun FlowCoordinator.runFlowCamera() {
 
 }
 
-class FlowCamera : BaseFlow() {
+class FlowMain : BaseFlow() {
 
-    private var models = FlowCameraModels()
+    private var models = FlowMainModels()
 
     override fun start() {
         onStarted()
         runModuleCameraInput()
     }
 
-    inner class FlowCameraModels {
+    inner class FlowMainModels {
         var modelCameraInput = CameraInputModel()
     }
 

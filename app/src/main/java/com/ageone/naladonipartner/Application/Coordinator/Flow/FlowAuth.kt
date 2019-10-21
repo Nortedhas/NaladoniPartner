@@ -7,6 +7,7 @@ import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.V
 import com.ageone.naladonipartner.Application.Coordinator.Router.DataFlow
 import com.ageone.naladonipartner.Application.coordinator
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
+import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.Auth.AuthModel
 import com.ageone.naladonipartner.Modules.Auth.AuthView
@@ -79,5 +80,8 @@ class FlowAuth: BaseFlow() {
     }
 
 
-
+    fun BaseModule.startLoadingFlow() {
+        coordinator.start()
+        onDeInit?.invoke()
+    }
 }
