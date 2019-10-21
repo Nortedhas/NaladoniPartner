@@ -11,166 +11,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/ageone/Application/ExampleInstrumentedTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/example/ageone/Application/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/App.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/AppActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/FlowAuth.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/FlowCoordinator.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/FlowLoading.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Regular/FlowFAQ.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Regular/FlowFilter.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Regular/FlowMainStock.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Regular/FlowNavigation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Stack/FlowList.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Stack/FlowMain.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Stack/FlowProfile.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Flow/Stack/FlowSearch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Router/Router.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Router/Stack.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/Coordinator/Router/TabBar/TabBar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Activity/BaseActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Button/BaseButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/ConstraintLayout/BaseConstraintLayout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/EditText/BaseEditText.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Flow/BaseFlow.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/ImageView/BaseImageView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Map/BaseMapView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/MapView/BaseMapView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Module/BaseModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Module/BaseModuleCollapse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Module/Module.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/ProgressBar/BaseProgressBar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/RadioButton/BaseRadioButton.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/RecyclerView/BaseRecyclerView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/RecyclerView/CirclePagerIndicatorDecoration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/RecyclerView/ColumnEqualsPaddingItemDecoration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/RecyclerView/HorizontalSpacesItemDecoration.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/SearchView/BaseSearchView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/SeekBar/BaseSeekBar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Switch/BaseSwitch.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/TextInputLayout/BaseTextInputLayout.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/TextView/BaseTextView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Toolbar/BaseToolbar.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/View/BaseView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/ViewFlipper/BaseViewFlipper.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Activity/Flags.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Activity/Location.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Activity/Permissions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Activity/UI.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Application/FTActivityLifecycleCallbacks.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Function/Function.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Realm/RealmExtension.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/HTTP/API/API.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/HTTP/Database.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/InitModuleUI.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Interfaces/InterfaceModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Interfaces/InterfaceViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Libraries/Alert/AlertManager.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Libraries/Glide/MyGlideModule.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Libraries/Loger/TimberTree.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Libraries/WebView/BaseWebView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/RxBus/RxBus.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Utils/Utils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Utils/Validation/Validation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Internal/Utilities/Enums.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Internal/Utilities/Resources.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Internal/Utilities/Utils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/Realm.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/RxData.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserInformation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserLocation.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserPermissions.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/user.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/AboutCompany/AboutCompanyView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/AboutCompany/AboutCompanyViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/AboutCompany/rows/AboutCompanyEmailViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/AboutCompany/rows/AboutCompanyLogoViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/AboutCompany/rows/AboutCompanyTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Auth/AuthView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Auth/AuthViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Auth/rows/AuthTextInputViewHolderC.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Auth/rows/AuthTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeCity/ChangeCityView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeCity/ChangeCityViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeName/ChangeNameView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeName/ChangeNameViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangePhone/ChangePhoneView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangePhone/ChangePhoneViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeSMS/ChangeSMSView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeSMS/ChangeSMSViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/ChangeSMS/rows/ChangeSMSTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/City/CityView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/City/CityViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/City/rows/CitySpinnerViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/City/rows/CityTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/FAQ/FAQView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/FAQ/FAQViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/FAQ/rows/FAQSliderViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Filter/FilterView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Filter/FilterViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Filter/rows/FilterButtonViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Filter/rows/FilterFilterIconsViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Filter/rows/FilterSwitchViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/InnerFilter/InnerFilterView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/InnerFilter/InnerFilterViewCollapse.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/InnerFilter/InnerFilterViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/List/ListView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/List/ListViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Loading/LoadingView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Loading/LoadingViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/LoadingScreen/LoadingScreenView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/LoadingScreen/LoadingScreenViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/MainStockView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/MainStockViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockButtonViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockDataTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockDescribeViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockQRCodeViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Map/MapView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Map/MapViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Map/rows/MapDiscountCardViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Navigation/NavigationView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Navigation/NavigationViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Navigation/rows/NavigationvViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/ProfileView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/ProfileViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/rows/ProfileInformationViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/rows/ProfileServiceInformationViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/rows/ProfileUsedDiscountViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Profile/rows/ProfileUserInformationViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/SMS/SMSView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/SMS/SMSViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/SMS/rows/SMSTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Search/SearchView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Search/SearchViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Search/rows/SearchEmptyViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/WebView/WebView.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/WebView/WebViewModel.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Network/HTTP/Methods.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Network/Socket/WebSocket.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/ConfigDefault.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/ConfigParser.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/Localizable.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/RealmClass.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/RealmEnums.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/RealmObjects.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/RealmParser.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/RealmUtilities.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/UserDefault.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/SCAG/UserParser.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/UIComponents/ViewHolders/ButtonViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/UIComponents/ViewHolders/EditTextViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/UIComponents/ViewHolders/InputViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/UIComponents/ViewHolders/СardViewHolder.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/ageone/Application/ExampleUnitTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/example/ageone/Application/ExampleUnitTest.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -252,14 +93,18 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-225">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Profile/ProfileView.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="99" column="77" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
+            <state relative-caret-position="-175">
+              <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -304,8 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/user.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/Activity/Permissions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserLocation.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/MapView/BaseMapView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Base/Map/BaseMapView.kt" />
@@ -355,6 +198,8 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Profile/ProfileView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" />
       </list>
     </option>
   </component>
@@ -363,6 +208,7 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -392,6 +238,51 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Application" type="462c0819:PsiDirectoryNode" />
+              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
+              <item name="Flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Network" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="NaladoniPartner" type="1abcf292:AndroidViewProjectNode" />
@@ -579,7 +470,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18120806" />
@@ -590,11 +480,11 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Build" order="0" visible="true" weight="0.33569404" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.33569404" />
       <window_info anchor="bottom" id="Android Profiler" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
-      <window_info anchor="bottom" id="Terminal" order="4" weight="0.44617563" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="4" visible="true" weight="0.44617563" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.42917848" />
@@ -730,9 +620,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/pic_qarcod.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/pic_profile.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -1046,13 +933,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Profile/ProfileView.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
           <caret line="99" column="77" selection-start-line="99" selection-start-column="77" selection-end-line="99" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-225">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-175">
+          <caret line="142" column="25" selection-start-line="142" selection-start-column="25" selection-end-line="142" selection-end-column="25" />
         </state>
       </provider>
     </entry>
