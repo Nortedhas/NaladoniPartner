@@ -2,7 +2,7 @@ package com.ageone.naladonipartner.Network.HTTP
 
 import com.ageone.naladonipartner.External.HTTP.API.API
 import com.ageone.naladonipartner.Models.User.City
-import com.ageone.naladonipartner.SCAG.DataBase
+//import com.ageone.naladonipartner.SCAG.DataBase
 import org.json.JSONObject
 import timber.log.Timber
 
@@ -14,7 +14,7 @@ fun API.getCityStocks(cityHashId: String) {
             "cityHashId" to cityHashId
         )) { jsonObject ->
 
-            parser.parseAnyObject(jsonObject, DataBase.Stock)
+          //  parser.parseAnyObject(jsonObject, DataBase.Stock)
         }
 }
 

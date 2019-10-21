@@ -7,7 +7,7 @@
     <item>
 
         <bitmap
-            android:src="@drawable/first"
+            android:src="@drawable/loading"
             android:gravity="clip_vertical|fill_horizontal"
 
         />

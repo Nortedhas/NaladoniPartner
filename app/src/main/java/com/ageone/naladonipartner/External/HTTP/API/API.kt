@@ -8,7 +8,7 @@ import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
 import com.ageone.naladonipartner.External.Libraries.Alert.blockUI
 import com.ageone.naladonipartner.External.Libraries.Alert.single
 import com.ageone.naladonipartner.Models.User.user
-import com.ageone.naladonipartner.SCAG.*
+//import com.ageone.naladonipartner.SCAG.*
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.core.extensions.jsonBody
 import com.swarmnyc.promisekt.Promise
@@ -22,7 +22,7 @@ class API {
         get() = ShPref.getInt("ApiCashTime", 0)
         set(value) = ShPref.put("ApiCashTime", value)
 
-    val parser = Parser()
+   // val parser = Parser()
 
     fun handshake(completion: () -> Unit){
         Fuel.post(Routes.Handshake.path)
@@ -36,7 +36,7 @@ class API {
                 utils.variable.token = jsonObject.optString("Token")
                 Timber.i("API new token: ${utils.variable.token}")
 //                cashTime = Date().time.toInt()
-                parser.userData(jsonObject)
+              //  parser.userData(jsonObject)
                 completion.invoke()
             }
     }
@@ -45,7 +45,7 @@ class API {
 
         Fuel.post(Routes.Api.path)
             .jsonBody(createBody(params).toString())
-            .header(DataBase.headers)
+           // .header(DataBase.headers)
             .responseString { request, response, result ->
                 result.fold({ result ->
                     val jsonObject = JSONObject(result)
@@ -86,10 +86,10 @@ class API {
     fun requestMainLoad(completion: () -> Unit){
 
         api.request(mapOf("router" to "mainLoad", "cashTime" to api.cashTime)) { jsonObject ->
-            for (type in DataBase.values()) {
+          /*  for (type in DataBase.values()) {
                 parser.parseAnyObject(jsonObject, type)
             }
-            parser.config(jsonObject)
+            parser.config(jsonObject)*/
             api.cashTime = (System.currentTimeMillis() / 1000).toInt()
             completion.invoke()
         }

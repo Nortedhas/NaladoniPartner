@@ -1,6 +1,6 @@
 package com.ageone.naladonipartner.Models.User
 
-import com.ageone.naladonipartner.SCAG.UserData
+//import com.ageone.naladonipartner.SCAG.UserData
 import net.alexandroid.shpref.ShPref
 
 object user {
@@ -17,7 +17,7 @@ object user {
         get() = ShPref.getBoolean("userIsAuthorized", false)
         set(value) = ShPref.put("userIsAuthorized", value)
 
-    var data = UserData
+    //var data = UserData
 
     var info = UserInformation()
     var location = UserLocation()

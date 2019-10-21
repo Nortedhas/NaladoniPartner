@@ -70,9 +70,9 @@ object TabBar {
 
     private fun createStackItem() {
         items = arrayListOf(
-            AHBottomNavigationItem("", R.drawable.ic_map),
+          /*  AHBottomNavigationItem("", R.drawable.ic_map),
             AHBottomNavigationItem("", R.drawable.ic_list),
-            AHBottomNavigationItem("", R.drawable.ic_search),
+            AHBottomNavigationItem("", R.drawable.ic_search),*/
             AHBottomNavigationItem("", R.drawable.ic_user)
 
         )

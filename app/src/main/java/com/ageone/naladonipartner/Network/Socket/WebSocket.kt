@@ -2,7 +2,7 @@ package com.ageone.naladonipartner.Network.Socket
 
 import com.ageone.naladonipartner.Application.utils
 import com.ageone.naladonipartner.Models.User.user
-import com.ageone.naladonipartner.SCAG.DataBase
+//import com.ageone.naladonipartner.SCAG.DataBase
 import io.socket.client.IO
 import io.socket.client.Manager
 import io.socket.client.Socket

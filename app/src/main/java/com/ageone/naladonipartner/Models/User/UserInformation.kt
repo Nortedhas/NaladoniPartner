@@ -8,9 +8,9 @@ class UserInformation {
         get() {
             val cityHashId = ShPref.getString("userCity", "")
             if (!cityHashId.isNullOrBlank()) {
-                utils.realm.city.getObjectById(cityHashId)?.let { cityDB ->
+              /*  utils.realm.city.getObjectById(cityHashId)?.let { cityDB ->
                     return City(cityDB.name, cityDB.hashId)
-                }
+                }*/
             }
             return null
         }

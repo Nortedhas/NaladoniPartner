@@ -2,7 +2,7 @@ package com.ageone.naladonipartner.Models
 
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
-import com.ageone.naladonipartner.SCAG.Stock
+//import com.ageone.naladonipartner.SCAG.Stock
 import timber.log.Timber
 import kotlin.properties.Delegates
 
@@ -13,6 +13,6 @@ class RxData {
         RxBus.publish(RxEvent.EventChangeFilterIndex())
     }
 
-    var currentStock: Stock? = null
+    //var currentStock: Stock? = null
 }
 
