@@ -11,6 +11,7 @@ import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.Auth.AuthModel
 import com.ageone.naladonipartner.Modules.Auth.AuthView
+import com.ageone.naladonipartner.Modules.Auth.AuthViewModel
 import com.ageone.naladonipartner.Modules.Start.StartModel
 import com.ageone.naladonipartner.Modules.Start.StartView
 
@@ -76,7 +77,15 @@ class FlowAuth: BaseFlow() {
         module.viewModel.initialize(models.modelAuth) { module.reload() }
         settingsCurrentFlow.isBottomNavigationVisible = false
 
-        push(module)
+        module.emitEvent = { event ->
+            when (AuthViewModel.EventType.valueOf(event)) {
+                AuthViewModel.EventType.OnNextPressed -> {
+                    module.startLoadingFlow()
+                }
+            }
+        }
+
+            push(module)
     }
 
 
