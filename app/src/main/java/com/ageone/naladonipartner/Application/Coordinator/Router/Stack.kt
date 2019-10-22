@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.Application.Coordinator.Router
 
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator
+import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.runFlowCode
 import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.runFlowMain
 /*import com.ageone.naladonipartner.Application.Coordinator.Flow.Regular.runFlowNavigation
 import com.ageone.naladonipartner.Application.Coordinator.Flow.Stack.**/
@@ -21,5 +22,7 @@ fun FlowCoordinator.createStackFlows(startFlow: Int) {
     runFlowProfile()*/
 
     runFlowMain()
+    runFlowCode()
+
     Stack.flows[startFlow].start()
 }
