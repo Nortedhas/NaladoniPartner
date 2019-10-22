@@ -3,6 +3,7 @@ package com.ageone.naladonipartner.Modules.CodeInput
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.ageone.naladonipartner.External.Base.ConstraintLayout.dismissFocus
 import com.ageone.naladonipartner.R
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseAdapter
@@ -104,6 +105,7 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 }
                 is CodeInputTextInputViewHolder -> {
                     holder.initialize("Введите цифровой код")
+                    innerContent.dismissFocus(holder.textInputCode.editText)
                 }
                 is CodeInputButtonViewHolder -> {
                     holder.initialize()

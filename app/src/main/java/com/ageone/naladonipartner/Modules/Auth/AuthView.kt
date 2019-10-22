@@ -3,6 +3,7 @@ package com.ageone.naladonipartner.Modules.Auth
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
+import com.ageone.naladonipartner.External.Base.ConstraintLayout.dismissFocus
 import com.ageone.naladonipartner.R
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseAdapter
@@ -102,6 +103,7 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                 }
                 is AuthTextInputViewHolder -> {
                     holder.initialize("Введите код-идентификатор")
+                    innerContent.dismissFocus(holder.textInputAuth.editText)
                 }
                 is AuthButtonViewHolder -> {
                     holder.initialize()
