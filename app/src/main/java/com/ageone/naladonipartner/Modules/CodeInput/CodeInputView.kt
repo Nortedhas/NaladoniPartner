@@ -8,12 +8,15 @@ import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseAdapter
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
+import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
+import com.ageone.naladonipartner.External.Libraries.Alert.single
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputButtonViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextInputViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.initialize
+import timber.log.Timber
 import yummypets.com.stevia.*
 
 class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initModuleUI) {
@@ -104,6 +107,12 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 }
                 is CodeInputButtonViewHolder -> {
                     holder.initialize()
+                    holder.buttonCode.setOnClickListener {
+                        alertManager.single("Код считан","Акция: “При покупке шавермы big получи 0.5 колы в подарок!”",null,"Понятно")
+                        { _,position ->
+                            if(position == 0) Timber.i("Dismiss Alert manager")
+                        }
+                    }
                 }
             }
         }
