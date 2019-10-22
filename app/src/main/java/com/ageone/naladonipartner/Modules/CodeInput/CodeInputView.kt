@@ -10,6 +10,7 @@ import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
+import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextInputViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.initialize
 import yummypets.com.stevia.*
@@ -26,9 +27,11 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
     init {
 //        viewModel.loadRealmData()
 
-        setBackgroundResource(R.drawable.base_background)//TODO: set background
+        setBackgroundResource(R.drawable.back_white)//TODO: set background
 
-        toolbar.title = ""
+        toolbar.title = "Вкусная шаверма"
+        toolbar.setBackgroundColor(Color.parseColor("#F06F28"))
+        toolbar.textColor = Color.WHITE
 
         renderToolbar()
 
@@ -51,11 +54,13 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
     inner class Factory(val rootModule: BaseModule) : BaseAdapter<BaseViewHolder>() {
 
         private val CodeInputTextType = 0
+        private val CodeTextInputType = 1
 
-        override fun getItemCount() = 1//viewModel.realmData.size
+        override fun getItemCount() = 2//viewModel.realmData.size
 
         override fun getItemViewType(position: Int): Int = when (position) {
             0 -> CodeInputTextType
+            1 -> CodeTextInputType
             else -> -1
         }
 
@@ -71,6 +76,9 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 CodeInputTextType -> {
                     CodeInputTextViewHolder(layout)
                 }
+                CodeTextInputType -> {
+                    CodeInputTextInputViewHolder(layout)
+                }
                 else -> {
                     BaseViewHolder(layout)
                 }
@@ -85,13 +93,12 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 is CodeInputTextViewHolder -> {
                     holder.initialize()
                 }
-
+                is CodeInputTextInputViewHolder -> {
+                    holder.initialize("Введите цифровой код")
+                }
             }
-
         }
-
     }
-
 }
 
 fun CodeInputView.renderUIO() {
