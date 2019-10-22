@@ -10,6 +10,7 @@ import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
+import com.ageone.naladonipartner.Modules.CameraInput.rows.CameraInputButtonViewHolder
 import com.ageone.naladonipartner.Modules.CameraInput.rows.CameraInputTextViewHolder
 import com.ageone.naladonipartner.Modules.CameraInput.rows.initialize
 import yummypets.com.stevia.*
@@ -53,11 +54,13 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
     inner class Factory(val rootModule: BaseModule) : BaseAdapter<BaseViewHolder>() {
 
         private val CameraInputTextType = 0
+        private val CameraInputButtonType = 1
 
-        override fun getItemCount() = 1//viewModel.realmData.size
+        override fun getItemCount() = 2//viewModel.realmData.size
 
         override fun getItemViewType(position: Int): Int = when (position) {
             0 -> CameraInputTextType
+            1 -> CameraInputButtonType
             else -> -1
         }
 
@@ -73,6 +76,9 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
                 CameraInputTextType -> {
                     CameraInputTextViewHolder(layout)
                 }
+                CameraInputButtonType -> {
+                    CameraInputButtonViewHolder(layout)
+                }
                 else -> {
                     BaseViewHolder(layout)
                 }
@@ -85,6 +91,9 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
 
             when (holder) {
                 is CameraInputTextViewHolder -> {
+                    holder.initialize()
+                }
+                is CameraInputButtonViewHolder -> {
                     holder.initialize()
                 }
 
