@@ -10,6 +10,7 @@ import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
+import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputButtonViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextInputViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.CodeInputTextViewHolder
 import com.ageone.naladonipartner.Modules.CodeInput.rows.initialize
@@ -55,12 +56,14 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
 
         private val CodeInputTextType = 0
         private val CodeTextInputType = 1
+        private val CodeButtonType = 2
 
-        override fun getItemCount() = 2//viewModel.realmData.size
+        override fun getItemCount() = 3//viewModel.realmData.size
 
         override fun getItemViewType(position: Int): Int = when (position) {
             0 -> CodeInputTextType
             1 -> CodeTextInputType
+            2 -> CodeButtonType
             else -> -1
         }
 
@@ -79,6 +82,9 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 CodeTextInputType -> {
                     CodeInputTextInputViewHolder(layout)
                 }
+                CodeButtonType -> {
+                    CodeInputButtonViewHolder(layout)
+                }
                 else -> {
                     BaseViewHolder(layout)
                 }
@@ -95,6 +101,9 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 }
                 is CodeInputTextInputViewHolder -> {
                     holder.initialize("Введите цифровой код")
+                }
+                is CodeInputButtonViewHolder -> {
+                    holder.initialize()
                 }
             }
         }
