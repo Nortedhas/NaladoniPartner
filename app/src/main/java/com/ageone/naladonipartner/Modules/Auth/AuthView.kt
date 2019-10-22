@@ -10,6 +10,7 @@ import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
+import com.ageone.naladonipartner.Models.User.user
 import com.ageone.naladonipartner.Modules.Auth.rows.AuthButtonViewHolder
 import com.ageone.naladonipartner.Modules.Auth.rows.AuthTextInputViewHolder
 import com.ageone.naladonipartner.Modules.Auth.rows.AuthTextViewHolder
@@ -104,6 +105,10 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                 }
                 is AuthButtonViewHolder -> {
                     holder.initialize()
+                    holder.buttonAuth.setOnClickListener {
+                        user.isAuthorized = true
+                        rootModule.emitEvent?.invoke(AuthViewModel.EventType.OnNextPressed.name)
+                    }
                 }
             }
         }

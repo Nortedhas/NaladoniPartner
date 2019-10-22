@@ -28,5 +28,4 @@ class LoadingView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(init
     }
 
 
-
 }

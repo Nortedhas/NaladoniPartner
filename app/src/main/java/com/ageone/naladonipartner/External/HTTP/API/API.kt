@@ -83,7 +83,7 @@ class API {
 
 //    fun handleUser()
 
-    fun requestMainLoad(completion: () -> Unit){
+    /*fun requestMainLoad(completion: () -> Unit){
 
         api.request(mapOf("router" to "mainLoad", "cashTime" to api.cashTime)) { jsonObject ->
           /*  for (type in DataBase.values()) {
@@ -94,7 +94,7 @@ class API {
             completion.invoke()
         }
 
-    }
+    }*/
 
 
     enum class Routes(val path: String) {

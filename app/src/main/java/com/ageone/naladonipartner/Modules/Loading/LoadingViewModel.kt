@@ -5,7 +5,6 @@ import com.ageone.naladonipartner.Application.webSocket
 import com.ageone.naladonipartner.External.Interfaces.InterfaceModel
 import com.ageone.naladonipartner.External.Interfaces.InterfaceViewModel
 import com.ageone.naladonipartner.Models.User.user
-import com.ageone.naladonipartner.Network.HTTP.getCityStocks
 import timber.log.Timber
 
 class LoadingViewModel : InterfaceViewModel {
@@ -23,14 +22,15 @@ class LoadingViewModel : InterfaceViewModel {
     }
 
     fun startLoading(completion: () -> Unit) {
-        user.info.city?.let { city ->
+      /*  user.info.city?.let { city ->
             api.getCityStocks(city.hashId)
         }
         api.requestMainLoad {
             Timber.i("completion invoke")
             webSocket.initialize()
-            completion.invoke()
-        }
+        }*/
+        completion.invoke()
+
 
     }
 }

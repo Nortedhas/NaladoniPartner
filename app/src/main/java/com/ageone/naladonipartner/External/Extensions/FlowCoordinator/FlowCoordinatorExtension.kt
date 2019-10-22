@@ -12,7 +12,7 @@ import timber.log.Timber
 fun FlowCoordinator.logout() {
     //correct data
     user.isAuthorized = false
-    api.cashTime = 0
+    //api.cashTime = 0
 
     //clear stack flows
     Stack.flows.forEach { flow ->

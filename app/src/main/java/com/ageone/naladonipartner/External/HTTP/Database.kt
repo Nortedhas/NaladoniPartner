@@ -1,6 +1,6 @@
     package com.ageone.naladonipartner.External.HTTP
 
-import com.ageone.naladonipartner.Application.api
+//import com.ageone.naladonipartner.Application.api
 import com.ageone.naladonipartner.External.HTTP.API.API
 //import com.ageone.naladonipartner.SCAG.DataBase
 import com.github.kittinunf.fuel.Fuel
