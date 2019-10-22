@@ -34,6 +34,7 @@ fun AuthButtonViewHolder.renderUI() {
     buttonAuth
         .constrainTopToTopOf(constraintLayout,33)
         .fillHorizontally()
+        .height(50F)
 
 }
 

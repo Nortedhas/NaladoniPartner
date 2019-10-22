@@ -36,6 +36,7 @@ fun CodeInputButtonViewHolder.renderUI() {
     buttonCode
         .constrainTopToTopOf(constraintLayout,64)
         .fillHorizontally()
+        .height(50F)
 }
 
 fun CodeInputButtonViewHolder.initialize() {

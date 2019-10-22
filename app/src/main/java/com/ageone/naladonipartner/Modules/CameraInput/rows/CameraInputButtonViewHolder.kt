@@ -35,6 +35,7 @@ fun CameraInputButtonViewHolder.renderUI() {
     buttonCamera
         .constrainTopToTopOf(constraintLayout,48)
         .fillHorizontally()
+        .height(50F)
 
 
 }

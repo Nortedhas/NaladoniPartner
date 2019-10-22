@@ -10,6 +10,7 @@ import com.ageone.naladonipartner.Application.Coordinator.Router.TabBar.Stack
 import com.ageone.naladonipartner.Application.currentActivity
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
 import com.ageone.naladonipartner.External.Extensions.Activity.clearLightStatusBar
+import com.ageone.naladonipartner.External.Extensions.Activity.setLightStatusBar
 import com.ageone.naladonipartner.External.Icon
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputView
@@ -28,6 +29,7 @@ fun FlowCoordinator.runFlowMain() {
         viewFlipperFlow.displayedChild = viewFlipperFlow.indexOfChild(flow.viewFlipperModule)
 
         flow.settingsCurrentFlow = DataFlow(viewFlipperFlow.size - 1)
+
         flow.colorStatusBar = Color.parseColor("#F06F28")
 
         currentActivity?.clearLightStatusBar(Color.parseColor("#F06F28"),Color.WHITE)
