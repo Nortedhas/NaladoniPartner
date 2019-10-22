@@ -14,10 +14,10 @@ class AuthTextViewHolder(val constraintLayout: ConstraintLayout) :
 
     val textViewAuth by lazy {
         val textView = BaseTextView()
-        textView.textSize = 10F.dp
+        textView.textSize = 15F
         textView.textColor = Color.parseColor("#333333")
         textView.text = "Введите в строку ниже код-идентификатор,\nкоторый передал вам администратор\nприложения "
-        textView.gravity = Gravity.CENTER_VERTICAL
+        textView.gravity = Gravity.CENTER_HORIZONTAL
         textView
     }
 

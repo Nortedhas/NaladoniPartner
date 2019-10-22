@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.Application.Coordinator.Flow.Stack
 
 
+import android.graphics.Color
 import androidx.core.view.size
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.ViewFlipperFlowObject.viewFlipperFlow
@@ -21,6 +22,7 @@ fun FlowCoordinator.runFlowCode() {
         viewFlipperFlow.displayedChild = viewFlipperFlow.indexOfChild(flow.viewFlipperModule)
 
         flow.settingsCurrentFlow = DataFlow(viewFlipperFlow.size - 1)
+        flow.colorStatusBar = Color.parseColor("#F06F28")
 
         Stack.flows.add(flow)
     }

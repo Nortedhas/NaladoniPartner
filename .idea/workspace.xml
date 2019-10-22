@@ -6,33 +6,23 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="de init" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="Botto" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_camera.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,8 +83,47 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowAuth.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="273">
               <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="193">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#72#814#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowLoading.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -102,73 +131,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="272">
+              <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-end-line="25" />
               <folding>
-                <element signature="e#72#772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding>
-                <element signature="e#54#780#0" expanded="true" />
+                <element signature="e#72#802#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            <state relative-caret-position="104">
+              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
               <folding>
-                <element signature="e#74#980#0" expanded="true" />
+                <element signature="e#54#791#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aurelhubert/ahbottomnavigation/2.3.4/46e09d9d0fd770e8f0e0f5588eb9f80c9d55d35f/ahbottomnavigation-2.3.4-sources.jar!/com/aurelhubert/ahbottomnavigation/AHBottomNavigationItem.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-688">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="238">
+              <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_bottom_frame.xml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="227">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="e#44#263#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingViewModel.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="295">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="e#44#367#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -203,11 +215,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Map/MapView.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockTextViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/List/ListView.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Search/SearchViewModel.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Application/AppActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/Search/SearchView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockQRCodViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/City/CityView.kt" />
@@ -225,14 +232,10 @@
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Profile/ProfileView.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/Socket/WebSocket.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/user.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/UserInformation.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/Database.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Resources.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Utils.kt" />
         <option value="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/ageone/naladonipartner/Models/RxData.java" />
@@ -245,15 +248,24 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/rows/StartViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/StartViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/StartView.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCamera.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowAuth.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Camera/rows/CameraInputTextViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/Database.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" />
       </list>
     </option>
   </component>
@@ -327,19 +339,7 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
-              <item name="Router" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
-              <item name="Router" type="462c0819:PsiDirectoryNode" />
-              <item name="TabBar" type="462c0819:PsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
@@ -347,6 +347,16 @@
               <item name="java" type="edd41e36:AndroidSourceTypeNode" />
               <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="Auth" type="462c0819:PsiDirectoryNode" />
+              <item name="rows" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
@@ -364,61 +374,6 @@
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="CameraInput" type="462c0819:PsiDirectoryNode" />
               <item name="rows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeInput" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="CodeInput" type="462c0819:PsiDirectoryNode" />
-              <item name="rows" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-              <item name="HTTP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-              <item name="Socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
@@ -477,85 +432,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
-              <item name="Flow" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="Application" type="462c0819:PsiDirectoryNode" />
-              <item name="Coordinator" type="462c0819:PsiDirectoryNode" />
-              <item name="Flow" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="External" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="External" type="462c0819:PsiDirectoryNode" />
-              <item name="HTTP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladoni" type="b2602c69:ProjectViewProjectNode" />
-              <item name="naladoni" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="naladonipartner" type="462c0819:PsiDirectoryNode" />
-              <item name="External" type="462c0819:PsiDirectoryNode" />
-              <item name="HTTP" type="462c0819:PsiDirectoryNode" />
-              <item name="API" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -781,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571692643439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="run flow main">
+      <created>1571728368112</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571728368112</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -798,7 +681,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.28668684" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28668684" />
       <window_info id="Structure" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Build Variants" order="4" side_tool="true" />
@@ -806,16 +689,16 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info active="true" anchor="bottom" id="Build" order="0" visible="true" weight="0.06546645" />
+      <window_info anchor="bottom" id="Build" order="0" weight="0.4091653" />
       <window_info anchor="bottom" id="Android Profiler" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.22913256" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.42917848" />
+      <window_info anchor="bottom" id="Logcat" order="7" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3286119" />
-      <window_info anchor="bottom" id="Find" order="9" weight="0.32733223" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.049099836" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -871,7 +754,8 @@
     <MESSAGE value="add start module" />
     <MESSAGE value="add cameraInput module" />
     <MESSAGE value="add flowCamera module" />
-    <option name="LAST_COMMIT_MESSAGE" value="add flowCamera module" />
+    <MESSAGE value="run flow main" />
+    <option name="LAST_COMMIT_MESSAGE" value="run flow main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -952,141 +836,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Base/Button/BaseButton.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Base/Activity/BaseActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Router.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/ageone/naladonipartner/Models/RxData.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/RxData.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-          <folding>
-            <element signature="e#43#259#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/back_pleer.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/back_search.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back_filter.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/anons.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_arrow_back.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_close.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_exit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_filter.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/loading.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/launch_screen.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/StartView.kt" />
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/ageone/naladonipartner/Modules/Modules/Start/StartModel.java" />
-    <entry file="file://$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/ageone/naladonipartner/Modules/Modules/Start/StartViewModel.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/StartViewModel.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/rows/StartImageViewHolder.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/rows/StartViewModel.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-          <folding>
-            <element signature="e#48#1129#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/rows/StartImageViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/StartView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="85" column="32" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/StartViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthButtonViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-306" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextInputViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthViewModel.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/base_background.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCamera.kt" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-459" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/CameraInputView.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1099,81 +852,17 @@
         <state relative-caret-position="-1479" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/Socket/WebSocket.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#51#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="34" column="5" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
-          <folding>
-            <element signature="e#72#784#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowLoading.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowAuth.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#72#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_bottom_frame.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#74#980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aurelhubert/ahbottomnavigation/2.3.4/46e09d9d0fd770e8f0e0f5588eb9f80c9d55d35f/ahbottomnavigation-2.3.4-sources.jar!/com/aurelhubert/ahbottomnavigation/AHBottomNavigationItem.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1184,10 +873,274 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        <state relative-caret-position="-293">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="e#54#780#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+          <folding>
+            <element signature="e#74#980#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Router.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#1127#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#48#1171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Flags.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Location.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Permissions.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/UI.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Application/FTActivityLifecycleCallbacks.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Function/Function.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Realm/RealmExtension.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/Database.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#106#385#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Interfaces/InterfaceModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Interfaces/InterfaceViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Libraries/Alert/AlertManager.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Libraries/WebView/BaseWebView.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/RxBus/RxBus.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/InitModuleUI.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Enums.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Resources.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Utils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding>
+            <element signature="e#55#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/user.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="54" lean-forward="true" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/UserInformation.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/UserLocation.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/UserPermissions.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/Realm.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/RxData.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/Socket/WebSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-436">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#51#423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#44#263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
+          <folding>
+            <element signature="e#54#791#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowAuth.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/FlowLoading.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="91" column="29" lean-forward="true" selection-start-line="91" selection-start-column="29" selection-end-line="91" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingViewModel.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#44#367#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="108" column="48" selection-start-line="108" selection-start-column="48" selection-end-line="108" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="26" column="52" lean-forward="true" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-end-line="25" />
+          <folding>
+            <element signature="e#72#802#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="e#72#814#0" expanded="true" />
           </folding>
         </state>
       </provider>
