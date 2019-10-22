@@ -7,11 +7,16 @@ import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator
 import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.ViewFlipperFlowObject.viewFlipperFlow
 import com.ageone.naladonipartner.Application.Coordinator.Router.DataFlow
 import com.ageone.naladonipartner.Application.Coordinator.Router.TabBar.Stack
+import com.ageone.naladonipartner.Application.currentActivity
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
+import com.ageone.naladonipartner.External.Extensions.Activity.clearLightStatusBar
+import com.ageone.naladonipartner.External.Icon
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputView
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputModel
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputViewModel
+import com.ageone.naladonipartner.R
+import timber.log.Timber
 
 
 fun FlowCoordinator.runFlowMain() {
@@ -24,6 +29,8 @@ fun FlowCoordinator.runFlowMain() {
 
         flow.settingsCurrentFlow = DataFlow(viewFlipperFlow.size - 1)
         flow.colorStatusBar = Color.parseColor("#F06F28")
+
+        currentActivity?.clearLightStatusBar(Color.parseColor("#F06F28"),Color.WHITE)
 
         Stack.flows.add(flow)
     }
@@ -53,7 +60,16 @@ class FlowMain : BaseFlow() {
     }
 
     fun runModuleCameraInput() {
-        val module = CameraInputView()
+        val module = CameraInputView(
+            InitModuleUI(
+            firstIcon = Icon(
+                icon = R.drawable.ic_exit,
+                size = 30,
+                listener = {
+                    Timber.i("Camera icon listener")
+                }
+            ))
+        )
 
         module.viewModel.initialize(models.modelCameraInput) { module.reload() }
 

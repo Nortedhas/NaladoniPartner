@@ -8,10 +8,13 @@ import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.V
 import com.ageone.naladonipartner.Application.Coordinator.Router.DataFlow
 import com.ageone.naladonipartner.Application.Coordinator.Router.TabBar.Stack
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
+import com.ageone.naladonipartner.External.Icon
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.CodeInput.CodeInputView
 import com.ageone.naladonipartner.Modules.CodeInput.CodeInputModel
 import com.ageone.naladonipartner.Modules.CodeInput.CodeInputViewModel
+import com.ageone.naladonipartner.R
+import timber.log.Timber
 
 fun FlowCoordinator.runFlowCode() {
 
@@ -52,7 +55,16 @@ class FlowCode : BaseFlow() {
     }
 
     fun runModuleCodeInput() {
-        val module = CodeInputView()
+        val module = CodeInputView(
+            InitModuleUI(
+                firstIcon = Icon(
+                    icon = R.drawable.ic_exit,
+                    size = 30,
+                    listener = {
+                        Timber.i("Code icon listener")
+                    }
+                ))
+        )
 
         module.viewModel.initialize(models.modelCodeInput) { module.reload() }
 

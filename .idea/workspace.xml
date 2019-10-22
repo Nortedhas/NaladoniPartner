@@ -12,20 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextInputViewHolder.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,99 +78,75 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/launch_screen.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-              <folding>
-                <element signature="e#72#814#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="24" column="30" selection-start-line="24" selection-end-line="25" />
-              <folding>
-                <element signature="e#72#802#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="51" column="51" selection-start-line="40" selection-start-column="4" selection-end-line="51" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputButtonViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/CameraInputView.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="33" column="39" selection-start-line="32" selection-start-column="7" selection-end-line="33" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            <state relative-caret-position="170">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="91">
+              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="70" selection-end-column="14" />
+              <folding>
+                <element signature="e#72#1068#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_close.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_code.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_exit.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputButtonViewHolder.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="499">
+              <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding>
+                <element signature="e#59#347#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+            <state relative-caret-position="295">
+              <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextInputViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="482">
-              <caret line="58" column="29" selection-start-line="58" selection-start-column="29" selection-end-line="58" selection-end-column="29" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back_filter.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextInputViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="36" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/anons.png">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthButtonViewHolder.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="14" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/loading.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -209,7 +179,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserInformation.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Models/User/UserPermissions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladoni/Modules/MainStock/rows/MainStockDescribeViewHolder.kt" />
@@ -230,7 +199,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Internal/Utilities/Utils.kt" />
         <option value="$PROJECT_DIR$/app/build/tmp/kapt3/stubs/debug/com/ageone/naladonipartner/Models/RxData.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/RxData.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/res/drawable/launch_screen.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/StartView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/StartViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Modules/Start/rows/StartImageViewHolder.kt" />
@@ -253,13 +221,15 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowCode.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputButtonViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/CameraInputView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputTextViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextInputViewHolder.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputButtonViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/launch_screen.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt" />
       </list>
     </option>
   </component>
@@ -386,6 +356,17 @@
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
               <item name="CodeInput" type="462c0819:PsiDirectoryNode" />
               <item name="rows" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="naladoni" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="drawable" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -690,7 +671,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571729975029</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add CodeInputTextInputViewHolder">
+      <created>1571730878581</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571730878581</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add CodeInputButtonViewHolder">
+      <created>1571731298328</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1571731298328</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -715,14 +710,14 @@
       <window_info id="Designer" order="6" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Build" order="0" weight="0.4091653" />
+      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.4091653" />
       <window_info anchor="bottom" id="Android Profiler" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
       <window_info anchor="bottom" id="Terminal" order="4" weight="0.22913256" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Logcat" order="7" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.049099836" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.049099836" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -783,7 +778,9 @@
     <MESSAGE value="run flow main" />
     <MESSAGE value="fix flow main" />
     <MESSAGE value="add CameraInputButtonViewHolder" />
-    <option name="LAST_COMMIT_MESSAGE" value="add CameraInputButtonViewHolder" />
+    <MESSAGE value="add CodeInputTextInputViewHolder" />
+    <MESSAGE value="add CodeInputButtonViewHolder" />
+    <option name="LAST_COMMIT_MESSAGE" value="add CodeInputButtonViewHolder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -864,78 +861,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_bottom_frame.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.aurelhubert/ahbottomnavigation/2.3.4/46e09d9d0fd770e8f0e0f5588eb9f80c9d55d35f/ahbottomnavigation-2.3.4-sources.jar!/com/aurelhubert/ahbottomnavigation/AHBottomNavigationItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-688">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#74#980#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Router.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/Stack.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
-          <folding>
-            <element signature="e#48#1127#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="e#48#1171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Flags.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Location.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Permissions.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/UI.kt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Application/FTActivityLifecycleCallbacks.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1124,23 +1049,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#72#814#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthButtonViewHolder.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="14" selection-start-line="14" selection-start-column="8" selection-end-line="20" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CameraInput/rows/CameraInputButtonViewHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1172,7 +1080,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextInputViewHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="36" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
+          <caret line="36" column="5" selection-start-line="14" selection-start-column="4" selection-end-line="36" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1183,10 +1091,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthButtonViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="5" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_user.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back_white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/base_background.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/back_search.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/back_pleer.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/back_filter.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-mdpi/anons.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/loading.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/launch_screen.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputButtonViewHolder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="499">
+          <caret line="40" column="27" lean-forward="true" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding>
+            <element signature="e#59#347#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="58" column="39" selection-start-line="58" selection-start-column="39" selection-end-line="58" selection-end-column="39" />
+        <state relative-caret-position="295">
+          <caret line="105" column="39" selection-start-line="105" selection-start-column="39" selection-end-line="105" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-xxhdpi/ic_close.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable-nodpi/ic_code.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ic_exit.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Flow/Stack/FlowMain.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="70" selection-end-column="14" />
+          <folding>
+            <element signature="e#72#1068#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
