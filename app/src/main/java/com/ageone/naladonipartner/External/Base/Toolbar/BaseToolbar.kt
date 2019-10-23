@@ -1,10 +1,14 @@
 package com.ageone.naladonipartner.External.Base.Toolbar
 
 import android.annotation.SuppressLint
+import android.content.res.TypedArray
 import android.graphics.Color
 import android.graphics.Rect
 import android.graphics.Typeface
+import android.graphics.drawable.Drawable
 import android.graphics.drawable.GradientDrawable
+import android.os.Build
+import android.util.TypedValue
 import android.view.Gravity
 import android.view.MotionEvent
 import android.view.View
@@ -172,27 +176,21 @@ class BaseToolbar(val initModuleUI: InitModuleUI, val content: ConstraintLayout)
                 v?.let { view ->
                     when (event?.action) {
                         MotionEvent.ACTION_DOWN -> {
-                            val circle = GradientDrawable()
-                            circle.setColor(Color.argb(50, 0, 0, 0))
-                            circle.shape = GradientDrawable.OVAL
-                            this@onTouchListener.background = circle
-                            rect = Rect(view.left, view.top, view.right, view.bottom)
+                            var outValue: TypedArray? = null
+                            val attr:IntArray = intArrayOf(R.attr.selectableItemBackground)
+                            outValue = context.obtainStyledAttributes(attr)
+                            var drawable = outValue.getDrawable(0)
+                            this@onTouchListener.background = drawable
+                            if(Build.VERSION.SDK_INT >= 23) {
+                                view.foreground = drawable
+                            }
+                            outValue?.recycle()
                         }
 
                         MotionEvent.ACTION_UP -> {
-                            this@onTouchListener.background = null
                         }
 
                         MotionEvent.ACTION_MOVE -> {
-                            rect?.let { rect ->
-                                if (!rect.contains(
-                                        view.left + event.x.toInt(),
-                                        view.top + event.y.toInt()
-                                    )
-                                ) {
-                                    this@onTouchListener.background = null
-                                }
-                            }
 
                         }
 
