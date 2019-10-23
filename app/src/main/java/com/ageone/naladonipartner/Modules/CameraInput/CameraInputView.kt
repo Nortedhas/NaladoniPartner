@@ -27,7 +27,7 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
     init {
 //        viewModel.loadRealmData()
 
-        setBackgroundResource(R.drawable.back_white)//TODO: set background
+        setBackgroundColor(Color.WHITE)
 
         toolbar.title = "Вкусная шаверма"
         toolbar.setBackgroundColor(Color.parseColor("#F06F28"))

@@ -11,6 +11,7 @@ import com.ageone.naladonipartner.Application.currentActivity
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
 import com.ageone.naladonipartner.External.Extensions.Activity.clearLightStatusBar
 import com.ageone.naladonipartner.External.Extensions.Activity.setLightStatusBar
+import com.ageone.naladonipartner.External.Extensions.Activity.setStatusBarColor
 import com.ageone.naladonipartner.External.Icon
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.Camera.CameraModel
@@ -34,7 +35,7 @@ fun FlowCoordinator.runFlowMain() {
 
         flow.colorStatusBar = Color.parseColor("#F06F28")
 
-        currentActivity?.clearLightStatusBar(Color.parseColor("#F06F28"),Color.WHITE)
+        currentActivity!!.setStatusBarColor(Color.parseColor("#F06F28"))
 
         Stack.flows.add(flow)
     }
@@ -76,10 +77,6 @@ class FlowMain : BaseFlow() {
             ))
         )
 
-        module.viewModel.initialize(models.modelCameraInput) { module.reload() }
-
-        settingsCurrentFlow.isBottomNavigationVisible = true
-
         module.emitEvent = { event ->
             when (CameraInputViewModel.EventType.valueOf(event)) {
                 CameraInputViewModel.EventType.OnCameraPressed -> {
@@ -87,6 +84,11 @@ class FlowMain : BaseFlow() {
                 }
             }
         }
+
+        module.viewModel.initialize(models.modelCameraInput) { module.reload() }
+
+        settingsCurrentFlow.isBottomNavigationVisible = true
+
         push(module)
     }
 
