@@ -4,8 +4,10 @@ import android.Manifest.permission.CAMERA
 import android.Manifest.permission.WRITE_EXTERNAL_STORAGE
 import android.content.pm.PackageManager
 import android.graphics.Color
+import android.graphics.Typeface
 import android.hardware.Camera
 import android.os.Build
+import android.view.Gravity
 import android.view.SurfaceHolder
 import android.view.SurfaceView
 import android.view.View
@@ -13,6 +15,8 @@ import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import com.ageone.naladonipartner.Application.currentActivity
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
+import com.ageone.naladonipartner.External.Base.TextView.BaseTextView
+import com.ageone.naladonipartner.External.Base.View.BaseView
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
 import com.ageone.naladonipartner.External.Libraries.Alert.single
@@ -37,12 +41,43 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
         surface
     }
 
+    val transparentView by lazy {
+        val view = BaseView()
+        view.alpha = 0.3F
+        view.backgroundColor = Color.BLACK
+        view.initialize()
+        view
+
+    }
+
+    val textViewCamera by lazy {
+        val textView = BaseTextView()
+        textView.textSize = 23F
+        textView.textColor = Color.WHITE
+        textView.typeface = Typeface.DEFAULT_BOLD
+        textView.backgroundColor = Color.TRANSPARENT
+        textView.text = "Отсканируйте QR-код"
+        textView
+    }
+
+    val textViewDescription by lazy {
+        val textView = BaseTextView()
+        textView.textSize = 15F
+        textView.textColor = Color.WHITE
+        textView.backgroundColor = Color.TRANSPARENT
+        textView.gravity = Gravity.CENTER_HORIZONTAL
+        textView.text = "Наведите камеру на экран\nклиента и считайте код"
+        textView
+    }
+
     init {
 //        viewModel.loadRealmData()
 
         setBackgroundColor(Color.WHITE)
 
-        toolbar.title = ""
+        toolbar.title = "Вкусная шаверма"
+        toolbar.setBackgroundColor(Color.parseColor("#F06F28"))
+        toolbar.textColor = Color.WHITE
 
         renderToolbar()
 
@@ -180,13 +215,30 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
 
 fun CameraView.renderUIO() {
     innerContent.subviews(
-        surfaceViewBase
+        surfaceViewBase,
+        transparentView,
+        textViewCamera,
+        textViewDescription
     )
     surfaceViewBase
         .width(matchParent)
         .height(matchParent)
         .fillHorizontally()
         .fillVertically()
+
+    transparentView
+        .constrainTopToTopOf(innerContent)
+        .fillHorizontally()
+        .width(matchParent)
+        .height(112)
+
+    textViewCamera
+        .constrainTopToTopOf(innerContent,20)
+        .constrainCenterXToCenterXOf(innerContent)
+
+    textViewDescription
+        .constrainTopToBottomOf(textViewCamera,8)
+        .constrainCenterXToCenterXOf(textViewCamera)
 }
 
 

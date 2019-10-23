@@ -72,7 +72,7 @@ class FlowMain : BaseFlow() {
                 icon = R.drawable.ic_exit,
                 size = 30,
                 listener = {
-                    Timber.i("Camera icon listener")
+                    Timber.i("Camera input icon listener")
                 }
             ))
         )
@@ -96,7 +96,14 @@ class FlowMain : BaseFlow() {
         val module = CameraView(
             InitModuleUI(
             isBottomNavigationVisible = false,
-            isToolbarHidden = false
+            isToolbarHidden = false,
+                firstIcon = Icon(
+                    icon = R.drawable.ic_close,
+                    size = 20,
+                    listener = {
+                        Timber.i("Camera icon listener")
+                    }
+                )
         ))
 
         module.viewModel.initialize(models.modelCamera) { module.reload() }
