@@ -13,6 +13,8 @@ import com.ageone.naladonipartner.External.Extensions.Activity.clearLightStatusB
 import com.ageone.naladonipartner.External.Extensions.Activity.setLightStatusBar
 import com.ageone.naladonipartner.External.Icon
 import com.ageone.naladonipartner.External.InitModuleUI
+import com.ageone.naladonipartner.Modules.Camera.CameraModel
+import com.ageone.naladonipartner.Modules.Camera.CameraView
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputView
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputModel
 import com.ageone.naladonipartner.Modules.CameraInput.CameraInputViewModel
@@ -59,6 +61,7 @@ class FlowMain : BaseFlow() {
 
     inner class FlowMainModels {
         var modelCameraInput = CameraInputModel()
+        var modelCamera = CameraModel()
     }
 
     fun runModuleCameraInput() {
@@ -79,9 +82,26 @@ class FlowMain : BaseFlow() {
 
         module.emitEvent = { event ->
             when (CameraInputViewModel.EventType.valueOf(event)) {
-
+                CameraInputViewModel.EventType.OnCameraPressed -> {
+                    runModuleCamera()
+                }
             }
         }
         push(module)
     }
+
+    fun runModuleCamera(){
+        val module = CameraView(
+            InitModuleUI(
+            isBottomNavigationVisible = false,
+            isToolbarHidden = false
+        ))
+
+        module.viewModel.initialize(models.modelCamera) { module.reload() }
+
+        settingsCurrentFlow.isBottomNavigationVisible = false
+
+        push(module)
+    }
+
 }

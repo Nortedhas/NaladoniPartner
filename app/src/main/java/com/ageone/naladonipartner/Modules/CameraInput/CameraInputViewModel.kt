@@ -8,7 +8,7 @@ class CameraInputViewModel : InterfaceViewModel {
     var model = CameraInputModel()
 
     enum class EventType {
-
+        OnCameraPressed
     }
 
     /*var realmData = listOf<>()

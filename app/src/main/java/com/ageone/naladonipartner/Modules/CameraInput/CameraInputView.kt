@@ -95,14 +95,13 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
                 }
                 is CameraInputButtonViewHolder -> {
                     holder.initialize()
+                    holder.buttonCamera.setOnClickListener {
+                        rootModule.emitEvent?.invoke(CameraInputViewModel.EventType.OnCameraPressed.name)
+                    }
                 }
-
             }
-
         }
-
     }
-
 }
 
 fun CameraInputView.renderUIO() {
