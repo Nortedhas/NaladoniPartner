@@ -3,6 +3,7 @@ package com.ageone.naladonipartner.Modules.CodeInput
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.widget.doOnTextChanged
 import com.ageone.naladonipartner.External.Base.ConstraintLayout.dismissFocus
 import com.ageone.naladonipartner.R
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
@@ -105,14 +106,33 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 }
                 is CodeInputTextInputViewHolder -> {
                     holder.initialize("Введите цифровой код")
+                    holder.textInputCode.editText?.doOnTextChanged { text, start, count, after ->
+                        viewModel.model.code = text.toString()
+                    }
                     innerContent.dismissFocus(holder.textInputCode.editText)
                 }
                 is CodeInputButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonCode.setOnClickListener {
-                        alertManager.single("Код считан","Акция: “При покупке шавермы big получи 0.5 колы в подарок!”",null,"Понятно")
-                        { _,position ->
-                            if(position == 0) Timber.i("Dismiss Alert manager")
+                        if(viewModel.model.code.count()<6){
+                            alertManager.single(
+                                "Ошибка",
+                                "Неверный QR-код",
+                                null,
+                                "Понятно")
+                            { _,position ->
+                                if(position == 0) Timber.i("Dismiss Alert manager")
+                            }
+                        } else {
+                            alertManager.single(
+                                "Код считан",
+                                "Акция: “При покупке шавермы big получи 0.5 колы в подарок!”",
+                                null,
+                                "Понятно"
+                            )
+                            { _, position ->
+                                if (position == 0) Timber.i("Dismiss Alert manager")
+                            }
                         }
                     }
                 }

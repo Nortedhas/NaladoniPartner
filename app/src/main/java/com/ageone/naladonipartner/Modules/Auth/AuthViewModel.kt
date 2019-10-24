@@ -25,5 +25,5 @@ class AuthViewModel : InterfaceViewModel {
 }
 
 class AuthModel : InterfaceModel {
-
+    var code = ""
 }

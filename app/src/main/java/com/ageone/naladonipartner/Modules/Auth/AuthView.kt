@@ -3,12 +3,15 @@ package com.ageone.naladonipartner.Modules.Auth
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
+import androidx.core.widget.doOnTextChanged
 import com.ageone.naladonipartner.External.Base.ConstraintLayout.dismissFocus
 import com.ageone.naladonipartner.R
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseAdapter
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
+import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
+import com.ageone.naladonipartner.External.Libraries.Alert.single
 import com.ageone.naladonipartner.External.RxBus.RxBus
 import com.ageone.naladonipartner.External.RxBus.RxEvent
 import com.ageone.naladonipartner.Models.User.user
@@ -16,6 +19,7 @@ import com.ageone.naladonipartner.Modules.Auth.rows.AuthButtonViewHolder
 import com.ageone.naladonipartner.Modules.Auth.rows.AuthTextInputViewHolder
 import com.ageone.naladonipartner.Modules.Auth.rows.AuthTextViewHolder
 import com.ageone.naladonipartner.Modules.Auth.rows.initialize
+import timber.log.Timber
 import yummypets.com.stevia.*
 
 class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initModuleUI) {
@@ -103,13 +107,25 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                 }
                 is AuthTextInputViewHolder -> {
                     holder.initialize("Введите код-идентификатор")
+                    holder.textInputAuth.editText?.doOnTextChanged { text, start, count, after ->
+                        viewModel.model.code = text.toString()
+                    }
                     innerContent.dismissFocus(holder.textInputAuth.editText)
                 }
                 is AuthButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonAuth.setOnClickListener {
-                        user.isAuthorized = true
-                        rootModule.emitEvent?.invoke(AuthViewModel.EventType.OnNextPressed.name)
+                        if(viewModel.model.code.count() < 4 ){
+                            alertManager.single("Ошибка", "Неверный код", null, "Понятно"){
+                                _, position ->
+                                when(position){
+                                    0 -> Timber.i("Dismiss alert manager")
+                                }
+                            }
+                        }else {
+                            user.isAuthorized = true
+                            rootModule.emitEvent?.invoke(AuthViewModel.EventType.OnNextPressed.name)
+                        }
                     }
                 }
             }

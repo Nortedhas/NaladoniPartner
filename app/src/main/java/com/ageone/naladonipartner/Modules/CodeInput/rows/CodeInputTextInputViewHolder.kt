@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.updateMargins
+import com.ageone.naladonipartner.External.Base.EditText.limitLength
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.Base.TextInputLayout.BaseTextInputLayout
 import com.ageone.naladonipartner.External.Base.TextInputLayout.InputEditTextType
@@ -25,12 +26,13 @@ class CodeInputTextInputViewHolder(val constraintLayout: ConstraintLayout) :
 
         textInput.boxStrokeColor = Color.parseColor("#C1C1C1")
         textInput.setInactiveUnderlineColor(Color.rgb(193, 193, 193))
-        textInput.defineType(InputEditTextType.TEXT)
+        textInput.defineType(InputEditTextType.NUMERIC)
 
         textInput.editText?.let { editText ->
             editText.textColor = Color.parseColor("#333333")
             editText.textSize = 20F
             editText.maxLines = 1
+            editText.limitLength(6)
             editText.setSingleLine(true)
         }
         textInput

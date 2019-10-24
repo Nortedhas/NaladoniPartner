@@ -25,5 +25,6 @@ class CodeInputViewModel : InterfaceViewModel {
 }
 
 class CodeInputModel : InterfaceModel {
+    var code = ""
 
 }
