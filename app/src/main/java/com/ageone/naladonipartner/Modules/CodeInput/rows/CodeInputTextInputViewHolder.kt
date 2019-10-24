@@ -39,10 +39,8 @@ class CodeInputTextInputViewHolder(val constraintLayout: ConstraintLayout) :
     }
 
     init {
-
         renderUI()
     }
-
 }
 
 fun CodeInputTextInputViewHolder.renderUI() {
@@ -53,8 +51,6 @@ fun CodeInputTextInputViewHolder.renderUI() {
     textInputCode
         .constrainTopToTopOf(constraintLayout,32)
         .fillHorizontally()
-
-
 }
 
 fun CodeInputTextInputViewHolder.initialize(hint: String) {

@@ -22,10 +22,8 @@ class CodeInputButtonViewHolder(val constraintLayout: ConstraintLayout) :
     }
 
     init {
-
         renderUI()
     }
-
 }
 
 fun CodeInputButtonViewHolder.renderUI() {

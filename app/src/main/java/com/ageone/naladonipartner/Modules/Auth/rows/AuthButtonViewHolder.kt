@@ -35,7 +35,6 @@ fun AuthButtonViewHolder.renderUI() {
         .constrainTopToTopOf(constraintLayout,33)
         .fillHorizontally()
         .height(50F)
-
 }
 
 fun AuthButtonViewHolder.initialize() {

@@ -22,22 +22,19 @@ class CameraInputButtonViewHolder(val constraintLayout: ConstraintLayout) :
     }
 
     init {
-
         renderUI()
     }
-
 }
 
 fun CameraInputButtonViewHolder.renderUI() {
     constraintLayout.subviews(
         buttonCamera
     )
+
     buttonCamera
         .constrainTopToTopOf(constraintLayout,48)
         .fillHorizontally()
         .height(50F)
-
-
 }
 
 fun CameraInputButtonViewHolder.initialize() {

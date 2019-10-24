@@ -49,7 +49,6 @@ fun AuthTextInputViewHolder.renderUI() {
     textInputAuth
         .constrainTopToTopOf(constraintLayout,33)
         .fillHorizontally()
-
 }
 
 fun AuthTextInputViewHolder.initialize(hint: String) {

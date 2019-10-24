@@ -34,7 +34,6 @@ class CodeInputTextViewHolder(val constraintLayout: ConstraintLayout) :
     init {
         renderUI()
     }
-
 }
 
 fun CodeInputTextViewHolder.renderUI() {

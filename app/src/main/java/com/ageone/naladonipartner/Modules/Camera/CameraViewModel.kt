@@ -1,6 +1,5 @@
 package com.ageone.naladonipartner.Modules.Camera
 
-import com.ageone.naladonipartner.Application.utils
 import com.ageone.naladonipartner.External.Interfaces.InterfaceModel
 import com.ageone.naladonipartner.External.Interfaces.InterfaceViewModel
 

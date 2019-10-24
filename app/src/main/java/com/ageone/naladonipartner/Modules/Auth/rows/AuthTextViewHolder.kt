@@ -5,8 +5,6 @@ import android.view.Gravity
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.Base.TextView.BaseTextView
-import yummypets.com.stevia.constrainLeftToLeftOf
-import yummypets.com.stevia.constrainTopToTopOf
 import yummypets.com.stevia.*
 
 class AuthTextViewHolder(val constraintLayout: ConstraintLayout) :
@@ -30,6 +28,7 @@ fun AuthTextViewHolder.renderUI() {
     constraintLayout.subviews(
         textViewAuth
     )
+
     textViewAuth
         .constrainTopToTopOf(constraintLayout,80)
         .constrainCenterXToCenterXOf(constraintLayout)

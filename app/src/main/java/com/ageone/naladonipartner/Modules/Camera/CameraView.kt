@@ -26,13 +26,11 @@ import java.io.IOException
 
 class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initModuleUI),SurfaceHolder.Callback{
 
-
     val viewModel = CameraViewModel()
 
     private var surfaceHolder: SurfaceHolder? = null
     private var camera: Camera? = null
     private var surfaceView: SurfaceView? = null
-
 
     private val neededPermissions = arrayOf(CAMERA, WRITE_EXTERNAL_STORAGE)
 
@@ -47,7 +45,6 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
         view.backgroundColor = Color.BLACK
         view.initialize()
         view
-
     }
 
     val textViewCamera by lazy {
@@ -108,7 +105,6 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
 
 
         private fun startCamera() {
-            Timber.i("Start camera")
             camera = Camera.open()
             camera!!.setDisplayOrientation(90)
             try {
@@ -117,7 +113,6 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
             } catch (e: IOException) {
                 e.printStackTrace()
             }
-
         }
 
         override fun surfaceCreated(surfaceHolder: SurfaceHolder) {
@@ -150,9 +145,6 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
             camera!!.release()
             camera = null
         }
-
-
-
 
     private fun checkPermission(): Boolean {
         val currentAPIVersion = Build.VERSION.SDK_INT
@@ -189,7 +181,6 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
     }
 
     private fun showPermissionAlert(permissions: Array<String?>) {
-
         alertManager.single(
             "Требуется разрешение",
             "Вы должны предоставить разрешение на доступ к камере для запуска этого приложения.",
@@ -208,10 +199,7 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
     companion object {
         const val REQUEST_CODE = 100
     }
-
-    }
-
-
+}
 
 fun CameraView.renderUIO() {
     innerContent.subviews(
@@ -220,6 +208,7 @@ fun CameraView.renderUIO() {
         textViewCamera,
         textViewDescription
     )
+
     surfaceViewBase
         .width(matchParent)
         .height(matchParent)

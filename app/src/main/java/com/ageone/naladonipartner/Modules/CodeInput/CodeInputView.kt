@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.Modules.CodeInput
 
 import android.graphics.Color
+import android.view.View
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.widget.doOnTextChanged
@@ -42,8 +43,7 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
         renderToolbar()
 
         bodyTable.adapter = viewAdapter
-//        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
-
+        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
 
         renderUIO()
         bindUI()
@@ -142,7 +142,6 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
 }
 
 fun CodeInputView.renderUIO() {
-
     renderBodyTable()
 }
 

@@ -1,9 +1,9 @@
 package com.ageone.naladonipartner.Modules.CameraInput
 
 import android.graphics.Color
+import android.view.View
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
-import com.ageone.naladonipartner.R
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseAdapter
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
@@ -36,8 +36,7 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
         renderToolbar()
 
         bodyTable.adapter = viewAdapter
-//        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
-
+        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
 
         renderUIO()
         bindUI()
@@ -83,7 +82,6 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
                     BaseViewHolder(layout)
                 }
             }
-
             return holder
         }
 
@@ -105,7 +103,6 @@ class CameraInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(
 }
 
 fun CameraInputView.renderUIO() {
-
     renderBodyTable()
 }
 

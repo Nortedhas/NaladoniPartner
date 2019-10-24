@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.Modules.Start
 
 import android.graphics.Color
+import android.view.View
 import android.view.ViewGroup
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.ageone.naladonipartner.External.Base.Module.BaseModule
@@ -9,7 +10,6 @@ import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.Modules.Start.rows.StartImageViewHolder
 import com.ageone.naladonipartner.Modules.Start.rows.initialize
-
 import com.ageone.naladonipartner.R
 import yummypets.com.stevia.*
 
@@ -33,8 +33,7 @@ class StartView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMo
         renderToolbar()
 
         bodyTable.adapter = viewAdapter
-//        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
-
+        bodyTable.overScrollMode = View.OVER_SCROLL_NEVER
 
         renderUIO()
         bindUI()
@@ -85,17 +84,12 @@ class StartView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMo
                 is StartImageViewHolder -> {
                     holder.initialize(R.drawable.ic_start)
                 }
-
             }
-
         }
-
     }
-
 }
 
 fun StartView.renderUIO() {
-
     renderBodyTable()
 }
 

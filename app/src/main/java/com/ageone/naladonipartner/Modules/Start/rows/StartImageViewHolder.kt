@@ -40,7 +40,6 @@ class StartImageViewHolder(val constraintLayout: ConstraintLayout) :
 
         renderUI()
     }
-
 }
 
 fun StartImageViewHolder.renderUI() {
