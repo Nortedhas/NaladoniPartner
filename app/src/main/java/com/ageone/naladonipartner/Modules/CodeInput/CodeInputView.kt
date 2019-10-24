@@ -114,7 +114,7 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 is CodeInputButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonCode.setOnClickListener {
-                        if(viewModel.model.code.count()<6){
+                        if(viewModel.model.code.count() < 9){
                             alertManager.single(
                                 "Ошибка",
                                 "Неверный QR-код",

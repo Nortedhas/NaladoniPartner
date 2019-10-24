@@ -32,7 +32,7 @@ class CodeInputTextInputViewHolder(val constraintLayout: ConstraintLayout) :
             editText.textColor = Color.parseColor("#333333")
             editText.textSize = 20F
             editText.maxLines = 1
-            editText.limitLength(6)
+            editText.limitLength(9)
             editText.setSingleLine(true)
         }
         textInput

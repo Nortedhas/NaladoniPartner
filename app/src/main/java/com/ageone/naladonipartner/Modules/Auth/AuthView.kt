@@ -116,7 +116,7 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                 is AuthButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonAuth.setOnClickListener {
-                        if(viewModel.model.code.count() < 4 ){
+                        if(viewModel.model.code.count() < 10 ){
                             alertManager.single("Ошибка", "Неверный код", null, "Понятно"){
                                 _, position ->
                                 when(position){

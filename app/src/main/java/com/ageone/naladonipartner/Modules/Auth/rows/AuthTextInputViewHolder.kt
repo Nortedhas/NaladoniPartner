@@ -4,6 +4,7 @@ import android.graphics.Color
 import android.widget.LinearLayout
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.view.updateMargins
+import com.ageone.naladonipartner.External.Base.EditText.limitLength
 import com.ageone.naladonipartner.External.Base.RecyclerView.BaseViewHolder
 import com.ageone.naladonipartner.External.Base.TextInputLayout.BaseTextInputLayout
 import com.ageone.naladonipartner.External.Base.TextInputLayout.InputEditTextType
@@ -32,6 +33,7 @@ class AuthTextInputViewHolder(val constraintLayout: ConstraintLayout) :
             editText.textSize = 20F
             editText.maxLines = 1
             editText.setSingleLine(true)
+            editText.limitLength(10)
         }
         textInput
     }
