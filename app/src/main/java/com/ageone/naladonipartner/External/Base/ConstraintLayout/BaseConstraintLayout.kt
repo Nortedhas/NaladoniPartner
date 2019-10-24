@@ -54,7 +54,7 @@ fun BaseConstraintLayout.dismissFocus(view: EditText?) {
         var heightDiff =
             ((((height - rect.height()) / height) * utils.variable.displayHeight).toInt())
 
-        if (heightDiff < 100) {
+        if (heightDiff < 50) {
             view?.clearFocus()
             view?.isFocusableInTouchMode = true
         }
