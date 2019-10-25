@@ -116,7 +116,11 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                 is AuthButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonAuth.setOnClickListener {
-                        if(viewModel.model.code.count() < 10 ){
+                        viewModel.validate {
+                            user.isAuthorized = true
+                            rootModule.emitEvent?.invoke(AuthViewModel.EventType.OnNextPressed.name)
+                        }
+                        /*if(viewModel.model.code.count() < 10 ){
                             alertManager.single("Ошибка", "Неверный код", null, "Понятно"){
                                 _, position ->
                                 when(position){
@@ -124,9 +128,7 @@ class AuthView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initMod
                                 }
                             }
                         }else {
-                            user.isAuthorized = true
-                            rootModule.emitEvent?.invoke(AuthViewModel.EventType.OnNextPressed.name)
-                        }
+                            }*/
                     }
                 }
             }

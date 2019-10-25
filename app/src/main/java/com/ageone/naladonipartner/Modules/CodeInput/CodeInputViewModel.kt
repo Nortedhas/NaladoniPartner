@@ -21,6 +21,12 @@ class CodeInputViewModel : InterfaceViewModel {
             completion.invoke()
         }
     }
+
+    fun validate(competition: () -> Unit){
+        if(model.code.length < 9){
+
+        }
+    }
 }
 
 class CodeInputModel : InterfaceModel {
