@@ -7,6 +7,8 @@ import android.graphics.Color
 import android.graphics.Typeface
 import android.hardware.Camera
 import android.os.Build
+import android.os.Environment
+import android.os.Handler
 import android.view.Gravity
 import android.view.SurfaceHolder
 import android.view.SurfaceView
@@ -20,11 +22,19 @@ import com.ageone.naladonipartner.External.Base.View.BaseView
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
 import com.ageone.naladonipartner.External.Libraries.Alert.single
+import kotlinx.coroutines.Dispatchers.IO
+import kotlinx.coroutines.Dispatchers.Main
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
 import timber.log.Timber
 import yummypets.com.stevia.*
+import java.io.File
+import java.io.FileNotFoundException
+import java.io.FileOutputStream
 import java.io.IOException
 
-class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initModuleUI),SurfaceHolder.Callback{
+class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initModuleUI),SurfaceHolder.Callback, Camera.PictureCallback {
+
 
     val viewModel = CameraViewModel()
 
@@ -82,8 +92,11 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
         surfaceView = surfaceViewBase
 
         val result = checkPermission()
+        var cameraStream:ByteArray = ByteArray(1)
         if(result) {
             setupSurfaceHolder()
+            captureImage()
+
         }
 
         bindUI()
@@ -133,16 +146,17 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
             } catch (e: IOException) {
                 e.printStackTrace()
             }
-            camera!!.startPreview()
+            camera?.startPreview()
         }
 
         override fun surfaceDestroyed(surfaceHolder: SurfaceHolder) {
             releaseCamera()
         }
 
+
         private fun releaseCamera() {
-            camera!!.stopPreview()
-            camera!!.release()
+            camera?.stopPreview()
+            camera?.release()
             camera = null
         }
 
@@ -193,9 +207,46 @@ class CameraView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(initM
         }
     }
 
+
     private fun requestPermissions(permissions: Array<String?>) {
         ActivityCompat.requestPermissions(currentActivity!!, permissions, REQUEST_CODE)
     }
+
+    override fun onPictureTaken(p0: ByteArray?, p1: Camera?) {
+        Timber.i("Byte array : $p0")
+        saveImage(p0)
+        resetCamera()
+        //saveByteArray(p0)
+    }
+
+    private fun saveImage(bytes: ByteArray?) {
+        val outStream: FileOutputStream
+        try {
+            val fileName = "naladoni" + System.currentTimeMillis() + ".jpg"
+            val file = File(Environment.getExternalStorageDirectory(), fileName)
+            outStream = FileOutputStream(file)
+            outStream.write(bytes)
+            Timber.i("ByteArray : ${bytes.toString()}")
+            outStream.close()
+        } catch (e: FileNotFoundException) {
+            e.printStackTrace()
+        } catch (e: IOException) {
+            e.printStackTrace()
+        }
+    }
+
+
+    fun saveByteArray(byteArray: ByteArray?){
+        var photobByteArray = byteArray
+        Timber.i("ByteArray : $photobByteArray")
+    }
+
+    fun captureImage(){
+        if(camera != null){
+            camera!!.takePicture(null,null,this)
+        }
+    }
+
     companion object {
         const val REQUEST_CODE = 100
     }
@@ -207,22 +258,21 @@ fun CameraView.renderUIO() {
         transparentView,
         textViewCamera,
         textViewDescription
+
     )
 
     surfaceViewBase
-        .width(matchParent)
-        .height(matchParent)
         .fillHorizontally()
         .fillVertically()
 
     transparentView
         .constrainTopToTopOf(innerContent)
         .fillHorizontally()
-        .width(matchParent)
         .height(112)
+        .setOnClickListener { captureImage() }
 
     textViewCamera
-        .constrainTopToTopOf(innerContent,20)
+        .constrainTopToTopOf(transparentView,20)
         .constrainCenterXToCenterXOf(innerContent)
 
     textViewDescription

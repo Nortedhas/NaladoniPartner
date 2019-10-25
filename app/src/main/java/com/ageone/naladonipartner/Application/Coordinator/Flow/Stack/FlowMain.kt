@@ -8,6 +8,7 @@ import com.ageone.naladonipartner.Application.Coordinator.Flow.FlowCoordinator.V
 import com.ageone.naladonipartner.Application.Coordinator.Router.DataFlow
 import com.ageone.naladonipartner.Application.Coordinator.Router.TabBar.Stack
 import com.ageone.naladonipartner.Application.currentActivity
+import com.ageone.naladonipartner.Application.router
 import com.ageone.naladonipartner.External.Base.Flow.BaseFlow
 import com.ageone.naladonipartner.External.Extensions.Activity.clearLightStatusBar
 import com.ageone.naladonipartner.External.Extensions.Activity.setLightStatusBar
@@ -101,7 +102,7 @@ class FlowMain : BaseFlow() {
                     icon = R.drawable.ic_close,
                     size = 20,
                     listener = {
-                        Timber.i("Camera icon listener")
+                        router.onBackPressed()
                     }
                 )
         ))

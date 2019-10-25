@@ -1,8 +1,8 @@
 package com.ageone.naladonipartner.Network.HTTP
 
-/*import com.ageone.naladonipartner.External.HTTP.API.API
+import com.ageone.naladonipartner.Application.api
+import com.ageone.naladonipartner.External.HTTP.API.API
 import com.ageone.naladonipartner.Models.User.City
-import com.ageone.naladonipartner.SCAG.DataBase
 import org.json.JSONObject
 import timber.log.Timber
 
@@ -14,7 +14,7 @@ fun API.getCityStocks(cityHashId: String) {
             "cityHashId" to cityHashId
         )) { jsonObject ->
 
-            parser.parseAnyObject(jsonObject, DataBase.Stock)
+            //parser.parseAnyObject(jsonObject, DataBase.Stock)
         }
 }
 
@@ -23,7 +23,7 @@ fun API.getCity(latitude: Double, longitude: Double, completion: (City) -> Unit)
         mapOf(
             "router" to "getCity",
             "latitude" to  latitude,
-            "longitude" to longitude
+            "longitude" to longitude,
             "clientCoordinates" to JSONObject().apply {
                 put("latitude", latitude)
                 put("longitude", longitude)
@@ -37,4 +37,4 @@ fun API.getCity(latitude: Double, longitude: Double, completion: (City) -> Unit)
             }
         }
 }
-*/
+

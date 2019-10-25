@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.Modules.CodeInput.rows
 
 import android.graphics.Color
+import android.graphics.drawable.GradientDrawable
 import android.text.InputType
 import androidx.constraintlayout.widget.ConstraintLayout
 import com.ageone.naladonipartner.External.Base.Button.BaseButton
@@ -17,6 +18,8 @@ class CodeInputButtonViewHolder(val constraintLayout: ConstraintLayout) :
         button.cornerRadius = 8.dp
         button.textColor = Color.WHITE
         button.inputType = InputType.TYPE_TEXT_VARIATION_NORMAL
+        button.gradient = Color.rgb(242, 132, 45)
+        button.orientation = GradientDrawable.Orientation.TOP_BOTTOM
         button.initialize()
         button
     }

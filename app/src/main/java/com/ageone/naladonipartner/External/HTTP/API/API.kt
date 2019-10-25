@@ -1,6 +1,7 @@
 package com.ageone.naladonipartner.External.HTTP.API
 
 import android.provider.Settings
+import com.ageone.naladoni.SCAG.DataBase
 import com.ageone.naladonipartner.Application.api
 import com.ageone.naladonipartner.Application.currentActivity
 import com.ageone.naladonipartner.Application.utils
@@ -35,7 +36,7 @@ class API {
                 val jsonObject = JSONObject(result.get())
                 utils.variable.token = jsonObject.optString("Token")
                 Timber.i("API new token: ${utils.variable.token}")
-//                cashTime = Date().time.toInt()
+                cashTime = Date().time.toInt()
               //  parser.userData(jsonObject)
                 completion.invoke()
             }
@@ -45,7 +46,7 @@ class API {
 
         Fuel.post(Routes.Api.path)
             .jsonBody(createBody(params).toString())
-           // .header(DataBase.headers)
+            .header(DataBase.headers)
             .responseString { request, response, result ->
                 result.fold({ result ->
                     val jsonObject = JSONObject(result)
