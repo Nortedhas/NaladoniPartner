@@ -11,7 +11,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_swarmnyc_promisekt_promisekt_1_0_5_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_swarmnyc_promisekt_promisekt_android_1_0_5_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nl_komponents_kovenant_kovenant_combine_3_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nl_komponents_kovenant_kovenant_core_3_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nl_komponents_kovenant_kovenant_functional_3_3_0_jar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__nl_komponents_kovenant_kovenant_jvm_3_3_0_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,92 +84,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/RealmUtilities.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Camera/CameraView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="306">
+              <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
               <folding>
-                <element signature="e#57#132#0" expanded="true" />
+                <element signature="e#51#1022#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/UserDefault.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Camera/CameraViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="116">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
-                <element signature="e#33#91#0" expanded="true" />
+                <element signature="e#51#264#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/App.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="87">
+              <caret line="85" selection-start-line="85" selection-end-line="87" selection-end-column="74" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/Socket/WebSocket.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-79">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/UserParser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/RealmEnums.kt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/RealmObjects.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/RealmParser.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+            <state relative-caret-position="85">
+              <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="e#48#756#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -190,7 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/Coordinator/Router/TabBar/TabBar.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/FlowCoordinator/FlowCoordinatorExtension.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/API/API.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Loading/LoadingView.kt" />
@@ -237,10 +204,11 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Extensions/Activity/Permissions.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Models/User/user.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/HTTP/Database.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/UserParser.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Network/HTTP/Methods.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
       </list>
     </option>
   </component>
@@ -253,11 +221,10 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,75 +241,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
               <item name="NaladoniPartner" type="58d84e3e:PackageViewProjectNode" />
               <item name="app" type="616d4139:PackageViewModuleNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-              <item name="HTTP" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="Network" type="462c0819:PsiDirectoryNode" />
-              <item name="Socket" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="naladonipartner" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="SCAG" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="naladonipartner" type="1abcf292:AndroidViewProjectNode" />
-              <item name="naladonipartner-app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="xml" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
           </expand>
           <select />
@@ -788,14 +694,14 @@
       <window_info id="Captures" order="6" side_tool="true" weight="0.24962178" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Capture Tool" order="8" />
-      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49848714" weight="0.28611898" />
+      <window_info active="true" anchor="bottom" id="Build" order="0" sideWeight="0.49848714" visible="true" weight="0.3696884" />
       <window_info anchor="bottom" id="Android Profiler" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.09819967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
       <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49848714" weight="0.24929178" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5015129" side_tool="true" weight="0.5531915" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="6" visible="true" weight="0.3286119" />
-      <window_info anchor="bottom" id="Logcat" order="7" weight="0.37252125" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.33569404" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.3186969" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32569557" />
       <window_info active="true" anchor="bottom" id="Find" order="9" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -990,13 +896,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/StartView.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Start/rows/StartImageViewHolder.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-215">
@@ -1049,10 +948,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Camera/CameraViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="116">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
           <folding>
-            <element signature="e#51#192#0" expanded="true" />
+            <element signature="e#51#264#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1255,21 +1154,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Camera/CameraView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="21" column="65" selection-start-line="21" selection-start-column="65" selection-end-line="21" selection-end-column="65" />
+        <state relative-caret-position="306">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+          <folding>
+            <element signature="e#51#1022#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-765" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="48" column="27" lean-forward="true" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/ConfigDefault.kt">
@@ -1369,6 +1264,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Application/AppActivity.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="44" column="25" lean-forward="true" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="e#48#756#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="85" selection-start-line="85" selection-end-line="87" selection-end-column="74" />
         </state>
       </provider>
     </entry>
