@@ -1,15 +1,14 @@
-    package com.ageone.naladonipartner.External.HTTP
+package com.ageone.naladonipartner.External.HTTP
 
-//import com.ageone.naladonipartner.Application.api
+import com.ageone.naladoni.SCAG.DataBase
+import com.ageone.naladonipartner.Application.api
 import com.ageone.naladonipartner.External.HTTP.API.API
-//import com.ageone.naladonipartner.SCAG.DataBase
 import com.github.kittinunf.fuel.Fuel
 import com.github.kittinunf.fuel.core.extensions.jsonBody
-import org.json.JSONArray
 import org.json.JSONObject
 import timber.log.Timber
 
-/*fun DataBase.request(params: Map<String, Any>, completion: (JSONObject) -> (Unit)) {
+fun DataBase.request(params: Map<String, Any>, completion: (JSONObject) -> (Unit)) {
 
     Fuel.post(API.Routes.Database.path)
         .jsonBody(api.createBody(params).toString())
@@ -33,7 +32,6 @@ import timber.log.Timber
         }
 }
 
-//TODO: 3 func
 fun DataBase.update(objectID: String, objectStruct: Map<String, Any>) {
     request(
         mapOf(
@@ -71,4 +69,3 @@ fun DataBase.fetch(filter: String, cashTime: Int = 0, completion: (JSONObject) -
         completion.invoke(json)
     }
 }
-*/

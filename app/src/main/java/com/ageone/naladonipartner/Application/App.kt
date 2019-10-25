@@ -9,6 +9,9 @@ import com.ageone.naladonipartner.BuildConfig
 import com.ageone.naladonipartner.External.Base.Activity.BaseActivity
 import com.ageone.naladonipartner.External.Extensions.Application.FTActivityLifecycleCallbacks
 import com.ageone.naladonipartner.External.HTTP.API.API
+import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
+import com.ageone.naladonipartner.External.Libraries.Alert.blockUI
+import com.ageone.naladonipartner.External.Libraries.Alert.single
 import com.ageone.naladonipartner.Internal.Utilities.Utils
 import com.ageone.naladonipartner.Models.RxData
 import com.ageone.naladonipartner.Network.Socket.WebSocket
@@ -60,6 +63,30 @@ class App: Application()  {
                 Timber.plant(Timber.DebugTree())
             }
         }
+
+        ReactiveNetwork
+            .observeNetworkConnectivity(applicationContext)
+            .flatMapSingle<Any> { connectivity -> ReactiveNetwork.checkInternetConnectivity() }
+            .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
+            .subscribe { isConnected ->
+                Timber.i("Internet: $isConnected")
+                if (isConnected is Boolean) {
+
+                    utils.isNetworkReachable = isConnected
+                    if (!utils.isNetworkReachable) {
+                        Timber.i("Internet are not allowed")
+                        alertManager.blockUI(true)
+                        alertManager.single(
+                            "Отсутствует интернет соединение",
+                            "В данный момент интернет соединение отстутсвует, либо соединение с сетью нестабильно")
+                    } else {
+                        Timber.i("Internet are allowed")
+                        alertManager.blockUI(false)
+                    }
+                }
+
+            }
 
         Realm.init(this)
 
