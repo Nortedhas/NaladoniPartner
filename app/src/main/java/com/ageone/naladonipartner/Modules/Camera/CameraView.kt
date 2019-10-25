@@ -20,7 +20,6 @@ import com.ageone.naladonipartner.External.Base.View.BaseView
 import com.ageone.naladonipartner.External.InitModuleUI
 import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
 import com.ageone.naladonipartner.External.Libraries.Alert.single
-import timber.log.Timber
 import yummypets.com.stevia.*
 import java.io.IOException
 

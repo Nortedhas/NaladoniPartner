@@ -34,6 +34,15 @@ fun Activity.addLocationPermissions() {
     permissions += PERMISSIONS_LOCATION
 }
 
+// CAMERA
+val PERMISSIONS_CAMERA = arrayOf(
+    Manifest.permission.CAMERA
+)
+
+fun Activity.addCameraPermissions() {
+    permissions += PERMISSIONS_CAMERA
+}
+
 fun AppActivity.verifyPermissions(completion: () -> Unit ) {
 
     if (!hasPermissions(permissions)) {
@@ -43,7 +52,9 @@ fun AppActivity.verifyPermissions(completion: () -> Unit ) {
             REQUEST_CODE
         )
     } else {
-        Timber.i("Location permission are OK")
         completion.invoke()
     }
 }
+
+
+//TODO: replace in base
