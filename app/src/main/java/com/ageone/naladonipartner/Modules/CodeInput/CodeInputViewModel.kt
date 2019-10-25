@@ -2,6 +2,9 @@ package com.ageone.naladonipartner.Modules.CodeInput
 
 import com.ageone.naladonipartner.External.Interfaces.InterfaceModel
 import com.ageone.naladonipartner.External.Interfaces.InterfaceViewModel
+import com.ageone.naladonipartner.External.Libraries.Alert.alertManager
+import com.ageone.naladonipartner.External.Libraries.Alert.single
+import timber.log.Timber
 
 class CodeInputViewModel : InterfaceViewModel {
     var model = CodeInputModel()
@@ -24,8 +27,16 @@ class CodeInputViewModel : InterfaceViewModel {
 
     fun validate(competition: () -> Unit){
         if(model.code.length < 9){
-
+            alertManager.single(
+                "Ошибка",
+                "Неверный QR-код",
+                null,
+                "Понятно"
+            )
+            { _, position -> }
+            return
         }
+        competition.invoke()
     }
 }
 

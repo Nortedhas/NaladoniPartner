@@ -114,32 +114,22 @@ class CodeInputView(initModuleUI: InitModuleUI = InitModuleUI()) : BaseModule(in
                 is CodeInputButtonViewHolder -> {
                     holder.initialize()
                     holder.buttonCode.setOnClickListener {
-                        if(viewModel.model.code.count() < 9){
-                            alertManager.single(
-                                "Ошибка",
-                                "Неверный QR-код",
-                                null,
-                                "Понятно")
-                            { _,position ->
-                                if(position == 0) Timber.i("Dismiss Alert manager")
-                            }
-                        } else {
+                        viewModel.validate {
                             alertManager.single(
                                 "Код считан",
                                 "Акция: “При покупке шавермы big получи 0.5 колы в подарок!”",
                                 null,
                                 "Понятно"
                             )
-                            { _, position ->
-                                if (position == 0) Timber.i("Dismiss Alert manager")
-                            }
+                            { _, position -> }
                         }
                     }
                 }
             }
         }
-    }
+     }
 }
+
 
 fun CodeInputView.renderUIO() {
     renderBodyTable()
