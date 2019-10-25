@@ -96,7 +96,7 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
-out/
+app/build/generated/ap_generated_sources/debug/out/
 
 # mpeltonen/sbt-idea plugin
 .idea_modules/
