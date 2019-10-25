@@ -7,25 +7,10 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Firebase" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.4.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt" afterDir="false" />
-    </list>
+    <list default="true" id="c3e11782-216d-4ee5-a68c-67adf251e171" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="130" column="33" lean-forward="true" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+            <state relative-caret-position="414">
+              <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -158,13 +143,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+            <state relative-caret-position="278">
+              <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
               <folding>
-                <element signature="e#54#195#0" expanded="true" />
+                <element signature="e#54#358#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -258,7 +243,6 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/External/Base/ConstraintLayout/BaseConstraintLayout.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/rows/AuthTextInputViewHolder.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/rows/CodeInputTextInputViewHolder.kt" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/xml/network_security_config.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/SCAG/RealmObjects.kt" />
@@ -269,6 +253,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthView.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/Auth/AuthViewModel.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt" />
       </list>
     </option>
   </component>
@@ -741,7 +726,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571995301031</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add validate in auth">
+      <created>1571995949258</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1571995949258</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add validate in codeinput">
+      <created>1571996344357</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1571996344357</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -770,10 +769,10 @@
       <window_info anchor="bottom" id="Android Profiler" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="TODO" order="2" weight="0.09819967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36827195" />
-      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49848714" weight="0.14238952" />
+      <window_info anchor="bottom" id="Terminal" order="4" sideWeight="0.49848714" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Event Log" order="5" sideWeight="0.5015129" side_tool="true" weight="0.5531915" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.3286119" />
-      <window_info anchor="bottom" id="Logcat" order="7" visible="true" weight="0.049099836" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.049099836" />
       <window_info anchor="bottom" id="Run" order="8" weight="0.32569557" />
       <window_info active="true" anchor="bottom" id="Find" order="9" visible="true" weight="0.049099836" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
@@ -879,7 +878,9 @@
     <MESSAGE value="fix dismiss focus func" />
     <MESSAGE value="fix check textInput" />
     <MESSAGE value="add SCAG" />
-    <option name="LAST_COMMIT_MESSAGE" value="add SCAG" />
+    <MESSAGE value="add validate in auth" />
+    <MESSAGE value="add validate in codeinput" />
+    <option name="LAST_COMMIT_MESSAGE" value="add validate in codeinput" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1331,20 +1332,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="130" column="33" lean-forward="true" selection-start-line="130" selection-start-column="33" selection-end-line="130" selection-end-column="33" />
+        <state relative-caret-position="278">
+          <caret line="34" column="13" lean-forward="true" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="e#54#358#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputViewModel.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ageone/naladonipartner/Modules/CodeInput/CodeInputView.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-          <folding>
-            <element signature="e#54#195#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="124" column="25" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
         </state>
       </provider>
     </entry>

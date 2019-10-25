@@ -25,7 +25,7 @@ class CodeInputViewModel : InterfaceViewModel {
         }
     }
 
-    fun validate(competition: () -> Unit){
+    fun validate(completion: () -> Unit){
         if(model.code.length < 9){
             alertManager.single(
                 "Ошибка",
@@ -36,7 +36,7 @@ class CodeInputViewModel : InterfaceViewModel {
             { _, position -> }
             return
         }
-        competition.invoke()
+        completion.invoke()
     }
 }
 

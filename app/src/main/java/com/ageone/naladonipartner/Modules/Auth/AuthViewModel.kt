@@ -26,12 +26,12 @@ class AuthViewModel : InterfaceViewModel {
     }
 
 
-    fun validate(competition: () -> Unit){
+    fun validate(completion: () -> Unit){
         if(model.code.length < 10){
                 alertManager.single("Ошибка", "Неверный код", null, "Понятно"){_, _ ->}
                     return
         }
-        competition.invoke()
+        completion.invoke()
     }
 }
 
