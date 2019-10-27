@@ -14,6 +14,7 @@ import com.ageone.naladonipartner.Modules.Auth.AuthView
 import com.ageone.naladonipartner.Modules.Auth.AuthViewModel
 import com.ageone.naladonipartner.Modules.Start.StartModel
 import com.ageone.naladonipartner.Modules.Start.StartView
+import com.ageone.naladonipartner.Modules.Start.StartViewModel
 
 
 fun FlowCoordinator.runFlowAuth() {
@@ -62,9 +63,14 @@ class FlowAuth: BaseFlow() {
 
         settingsCurrentFlow.isBottomNavigationVisible = false
 
-        Handler().postDelayed({
-            runModuleAuth()
-        },4000)
+        module.emitEvent = {event ->
+            when(StartViewModel.EventType.valueOf(event)){
+                StartViewModel.EventType.OnCodePressed -> {
+                    runModuleAuth()
+                }
+            }
+
+        }
 
         push(module)
     }

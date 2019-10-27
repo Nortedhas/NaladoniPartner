@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: net.alexandroid.utils:shpref:1.6@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4af0ffd37b7ea7b771b25fca0aa3695/shpref-1.6/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a4af0ffd37b7ea7b771b25fca0aa3695/shpref-1.6/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be1a64f20dfdca64b0eebfa75f1097e7/shpref-1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/be1a64f20dfdca64b0eebfa75f1097e7/shpref-1.6/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.alexandroid.utils/shpref/1.6/8034ddaa186bc663da685720e6aee0480a8ed498/shpref-1.6-javadoc.jar!/" />

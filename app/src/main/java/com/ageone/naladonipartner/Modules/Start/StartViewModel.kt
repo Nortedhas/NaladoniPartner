@@ -7,7 +7,7 @@ class StartViewModel : InterfaceViewModel {
     var model = StartModel()
 
     enum class EventType {
-
+        OnCodePressed
     }
 
     /*var realmData = listOf<>()
